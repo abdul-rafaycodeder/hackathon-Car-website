@@ -310,3 +310,44 @@
 
 
 }
+
+@media (max-width: 920px) {
+    .search-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 808px) {
+    .search-container {
+        margin-left: -1px;
+
+    }
+}
+
+@media (max-width: 716px) {
+    .search-container {
+        margin-left: -100px;
+
+    }
+}
+
+@media (max-width: 556px) {
+    .search-container {
+        margin-left: -190px;
+
+    }
+}
+
+@media (max-width: 440px) {
+    .search-container {
+        margin-left: -230px;
+
+    }
+}
+
+@media (max-width: 340px) {
+    .search-container {
+        margin-left: -300px;
+
+    }
+}
