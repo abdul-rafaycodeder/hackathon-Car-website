@@ -30,6 +30,11 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 100px;
+
+}
+
+.ham{
+    display: none;
 }
 
 .nav-links {
@@ -190,7 +195,7 @@ span {
     margin-top: 130px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* WHY CHOOSE US section  */
@@ -604,4 +609,8 @@ footer .copyright {
     text-align: center;
     font-size: 14px;
     color: #94a3b8;
+}
+
+#main{
+    overflow: hidden;
 }
