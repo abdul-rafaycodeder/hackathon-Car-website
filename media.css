@@ -351,3 +351,28 @@
 
     }
 }
+
+@media (max-width: 480px) {
+    .search-container {
+        margin-left: -225px;
+
+    }
+}
+
+@media (max-width: 768px) {
+  .search-container {
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 1530px) {
+    .hero-section-title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .search-container {
+        margin-left: -170px;
+    }
+}
