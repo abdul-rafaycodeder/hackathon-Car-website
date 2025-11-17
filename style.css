@@ -362,17 +362,23 @@ p {
 /* SMALL TAG */
 .tag {
     background: #e8f1ff;
-    color: #4f7ce6;
-    padding: 8px 20px;
+    color: #000000;
+    padding: 15px 15px;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 12px;
     margin-bottom: 20px;
+    transition: all ease-in-out 0.5s;
+}
+
+.tag:hover{
+background-color: #699beb;
 }
 
 /* TITLE */
 .title {
-    font-size: 32px;
+    font-size: 3.5em;
+    font-family: sans-serif;
     color: #333;
     margin-bottom: 40px;
 }
@@ -479,18 +485,15 @@ p {
     border-radius: 10px;
     border: 1px solid #ddd;
     font-size: 15px;
-    cursor: pointer;
+    transition: all ease-in-out 0.5s;
 }
 
 .show-btn:hover {
-    background: #f7f7f7;
+    background: #93bcff;
 }
 
+
 /* testimonial-section */
-
-
-
-
 #testimonial-card {
     margin: 0 auto;
     width: 800px;
@@ -552,6 +555,33 @@ p {
     background: #00172F;
     color: #cbd5e1;
     padding: 60px 8%;
+}
+
+.logo>p img{
+    background-color: #005ed1;
+    width: 10px;
+}
+
+.logop{
+    align-items: center;
+    margin: 0 auto;
+    background-color: #005ed1;
+}
+
+.rafay{
+    background-color: #005ed1;
+}
+
+.logo .rafay{
+    background-color: #0066d1;
+}
+
+.footer-section.logo .rafay{
+    background-color: #005ed1;
+}
+
+.logo{
+  width: 6px;
 }
 
 .footer-container {
