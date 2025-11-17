@@ -50,7 +50,8 @@
     }
 }
 
-/* ---------- Tablets (max-width: 992px) ---------- */
+/* -- Tablets (max-width: 992px) --*/
+
 @media (max-width: 992px) {
 
     #navbar {
@@ -80,7 +81,7 @@
     }
 }
 
-/* ---------- Mobile (max-width: 768px) ---------- */
+/* -- Mobile (max-width: 768px) -- */
 @media (max-width: 768px) {
 
     #navbar {
@@ -146,7 +147,7 @@
     }
 }
 
-/* ---------- Small Mobile (max-width: 480px) ---------- */
+/* -- Small Mobile (max-width: 480px) -- */
 @media (max-width: 480px) {
 
     .hero-section-title h1 {
