@@ -33,7 +33,7 @@ body {
 
 }
 
-.ham{
+.ham {
     display: none;
 }
 
@@ -211,12 +211,12 @@ span {
 
 
 
-.title{
+.title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900;
 }
 
-.feature-box{
+.feature-box {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -247,7 +247,7 @@ span {
     width: 45%;
 }
 
-.WHY-CHOOSE-US-btn{
+.WHY-CHOOSE-US-btn {
     background: #f0f5ff;
     color: #5c7ee7;
     border: none;
@@ -258,7 +258,7 @@ span {
     transition: all ease-in-out 0.5s;
 }
 
-.WHY-CHOOSE-US-btn:hover{
+.WHY-CHOOSE-US-btn:hover {
     background-color: #445a99;
 }
 
@@ -341,7 +341,7 @@ p {
     background: #fff;
     padding: 20px;
     border-radius: 18px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
 }
 
@@ -349,7 +349,7 @@ p {
     transform: translateY(-5px);
 }
 
-.car-card>h3{
+.car-card>h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -440,103 +440,60 @@ p {
 
 /* testimonial-section */
 
-.testimonial-card {
-    position: relative;
-    left: 300px;
+
+
+
+#testimonial-card {
+    margin: 0 auto;
+    width: 800px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #ffffff;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    max-width: 850px;
-    width: 100%;
+    box-shadow: 0px 0px 5px;
+    transition: all ease-in-out 0.5s;
 }
 
-.left img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#testimonial-card:hover{
+    background-color: hsl(212, 100%, 96%);
 }
 
-.left {
-    width: 50%;
-}
 
-.right {
-    width: 50%;
-    padding: 40px;
-}
-
-.rating {
-    font-size: 40px;
-    font-weight: 700;
-    color: #000;
-}
-
-.rating span {
-    font-size: 18px;
-    font-weight: 500;
-    color: #777;
-}
-
-.stars {
-    color: #ffb400;
-    font-size: 20px;
-    margin: 5px 0 20px;
-}
-
-.review {
-    font-size: 15px;
-    line-height: 1.6;
-    color: #444;
-    margin-bottom: 30px;
-}
-
-.name {
-    font-size: 20px;
-    font-weight: 600;
-    color: #000;
-}
-
-.location {
-    color: #777;
-    font-size: 14px;
+.testimonial-card-title{
+    font-size: 2.4em;
 }
 
 
 /* download-section */
 
-.download-section{
+.download-section {
     margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.download-section-btn>button{
-    background-color:#1572D31A ;
+.download-section-btn>button {
+    background-color: #1572D31A;
     border: none;
     padding: 15px 15px;
     border-radius: 5px;
     transition: all ease-in-out 0.5s;
 }
 
-.download-section-btn>button:hover{
+.download-section-btn>button:hover {
     background-color: #1571d36b;
 }
 
-.download-section-title{
+.download-section-title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.download-section-title>p{
+.download-section-title>p {
     color: gray;
     margin-bottom: 20px;
 }
 
-.download-section-title>h1{
+.download-section-title>h1 {
     font-size: 4em;
 }
 
@@ -611,6 +568,6 @@ footer .copyright {
     color: #94a3b8;
 }
 
-#main{
+#main {
     overflow: hidden;
 }
