@@ -429,8 +429,59 @@
     }
 }
 
+@media (max-width: 760px) {
+#testimonial-card {
+    margin-left: -10px;
+}
+}
+@media (max-width: 708px) {
+#testimonial-card {
+    margin-left: -40px;
+}
+}
+@media (max-width: 644px) {
+#testimonial-card {
+    margin-left: -70px;
+}
+}
+@media (max-width: 584px) {
+#testimonial-card {
+    margin-left: -100px;
+}
+}
+@media (max-width: 544px) {
+#testimonial-card {
+    margin-left: -120px;
+}
+}
+@media (max-width: 512px) {
+#testimonial-card {
+    margin-left: -130px;
+}
+}
+@media (max-width: 484px) {
+#testimonial-card {
+    margin-left: -150px;
+}
+}
+@media (max-width: 468px) {
+#testimonial-card {
+    margin-left: -160px;
+}
+}
+@media (max-width: 436px) {
+#testimonial-card {
+    margin-left: -180px;
+}
+}
 
 
+@media (max-width: 396px) {
+#testimonial-card {
+    margin-left: -202px;
+    
+}
+}
 
 
 
