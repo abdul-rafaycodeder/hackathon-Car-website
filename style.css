@@ -143,6 +143,7 @@ span {
 .hero-section-title>p{
     font-size: 1.2em;
     padding: 7px;
+    line-height: 25px;
 }
 
 
@@ -331,7 +332,7 @@ span {
 }
 
 .WHY-CHOOSE-US-btn:hover {
-    background-color: #445a99;
+    background-color: #0953a375;
 }
 
 .title {
@@ -396,7 +397,7 @@ p {
 }
 
 .tag:hover{
-background-color: #699beb;
+background-color: #0953a375;
 }
 
 /* TITLE */
@@ -505,7 +506,7 @@ background-color: #699beb;
 
 .show-btn {
     background: #fff;
-    padding: 10px 25px;
+    padding: 20px 25px;
     border-radius: 10px;
     border: 1px solid #ddd;
     font-size: 15px;
@@ -513,7 +514,7 @@ background-color: #699beb;
 }
 
 .show-btn:hover {
-    background: #93bcff;
+    background: #0953a375;
 }
 
 
@@ -559,7 +560,7 @@ background-color: #699beb;
 }
 
 .download-section-btn>button:hover {
-    background-color: #1571d36b;
+    background-color: #0953a375;
 }
 
 .download-section-title {
@@ -568,11 +569,14 @@ background-color: #699beb;
 
 .download-section-title>p {
     color: gray;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    font-size: 2em;
 }
 
 .download-section-title>h1 {
     font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
