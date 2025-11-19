@@ -211,24 +211,25 @@
         margin-top: 200px;
     }
 
-    .hero-section-img{
+    .hero-section-img {
         margin-bottom: 50px;
     }
-    .hero-section-img{
+
+    .hero-section-img {
         margin-top: -150px;
     }
 }
 
 @media screen and (max-width: 980px) {
-    .hero-section-img>img{
+    .hero-section-img>img {
         width: 40em;
     }
 }
 
 @media screen and (max-width: 976px) {
- #hero-section-main{
-    margin-top: -100px;
- }
+    #hero-section-main {
+        margin-top: -100px;
+    }
 }
 
 @media screen and (max-width: 628px) {
@@ -236,11 +237,13 @@
         width: 30em;
     }
 }
+
 @media screen and (max-width: 472px) {
     .hero-section-img>img {
         width: 25em;
     }
 }
+
 @media screen and (max-width: 396px) {
     .hero-section-img>img {
         width: 24em;
@@ -248,13 +251,13 @@
 }
 
 @media screen and (max-width: 1160px) {
-    #hero-section-main{
+    #hero-section-main {
         margin-top: -100px;
     }
 }
 
 @media screen and (max-width: 1194px) {
- .hero-section-title {
+    .hero-section-title {
         margin-bottom: 150px;
     }
 }
@@ -262,76 +265,86 @@
 /* search-container */
 
 @media screen and (max-width: 927px) {
-    .search-container{
+    .search-container {
         flex-direction: column;
-        
+
     }
-} 
+}
 
 @media screen and (max-width: 856px) {
-    .search-container{
-       margin-left: -20px;
-        
+    .search-container {
+        margin-left: -20px;
+
     }
 }
+
 @media screen and (max-width: 803px) {
-    .search-container{
-       margin-left: -40px;
-        
+    .search-container {
+        margin-left: -40px;
+
     }
 }
+
 @media screen and (max-width: 729px) {
-    .search-container{
-       margin-left: -80px;
-        
+    .search-container {
+        margin-left: -80px;
+
     }
 }
+
 @media screen and (max-width: 666px) {
-    .search-container{
-       margin-left: -110px;
-        
+    .search-container {
+        margin-left: -110px;
+
     }
 }
+
 @media screen and (max-width: 613px) {
-    .search-container{
-       margin-left: -140px;
-        
+    .search-container {
+        margin-left: -140px;
+
     }
 }
+
 @media screen and (max-width: 564px) {
-    .search-container{
-       margin-left: -160px;
-        
+    .search-container {
+        margin-left: -160px;
+
     }
 }
+
 @media screen and (max-width: 508px) {
-    .search-container{
-       margin-left: -200px;
-        
+    .search-container {
+        margin-left: -200px;
+
     }
 }
+
 @media screen and (max-width: 508px) {
-    .search-container{
-       margin-left: -230px;
-        
+    .search-container {
+        margin-left: -230px;
+
     }
 }
+
 @media screen and (max-width: 406px) {
-    .search-container{
-       margin-left: -260px;
-        
+    .search-container {
+        margin-left: -260px;
+
     }
 }
+
 @media screen and (max-width: 360px) {
-    .search-container{
-       margin-left: -290px;
-        
+    .search-container {
+        margin-left: -290px;
+
     }
 }
+
 @media screen and (max-width: 314px) {
-    .search-container{
-       margin-left: -310px;
-        
+    .search-container {
+        margin-left: -310px;
+
     }
 }
 
@@ -348,24 +361,65 @@
     }
 }
 
-@media screen and (max-width: 383px){
-  .how-it-work-title>h2{
-    font-size: 1.3em;
-  }
+@media screen and (max-width: 383px) {
+    .how-it-work-title>h2 {
+        font-size: 1.3em;
+    }
 
-.card1>img{
-    width: 90px;
-}
-.card2>img{
-    width: 90px;
-}
-.card3>img{
-    width: 90px;
-}
+    .card1>img {
+        width: 90px;
+    }
+
+    .card2>img {
+        width: 90px;
+    }
+
+    .card3>img {
+        width: 90px;
+    }
+
+    .how-it-work-logo-img {
+        padding: ;
+    }
 
 }
 
+/* WHY CHOOSE US section */
 
+@media screen and (max-width: 383px) {
+    .title5 {
+        font-size: 2.3em;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1196px) {
+    .features {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+ 
+
+}
+
+@media screen and (max-width: 1232px) {
+    .title5 {
+        font-size: 2.7em;
+    }
+}
 
 @media (max-width: 824px) {
     #testimonial-card {
@@ -454,5 +508,3 @@
 
 
 }
-
-

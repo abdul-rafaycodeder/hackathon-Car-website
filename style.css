@@ -109,6 +109,20 @@ span {
     color: var(--primary-text-color);
 }
 
+.title5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
+.features{
+    margin-top: 40px;
+    
+}
+
+
+
+
+
 .hero-section-title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 100px;
