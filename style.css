@@ -109,17 +109,17 @@ span {
     color: var(--primary-text-color);
 }
 
-.title5{
+.title5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3em;
 }
 
-.features{
+.features {
     margin-top: 40px;
-    
+
 }
 
-.title10{
+.title10 {
     font-size: 3.4em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -140,8 +140,9 @@ span {
     font-size: 4em;
 }
 
-.hero-section-title>p{
+.hero-section-title>p {
     font-size: 1.2em;
+    font-family: sans-serif;
     padding: 7px;
     line-height: 25px;
 }
@@ -164,7 +165,7 @@ span {
     padding: 12px 20px;
     gap: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     width: 950px;
 }
 
@@ -200,7 +201,7 @@ span {
 
 .search-btn:hover {
     background: #0066d1;
-}   
+}
 
 /* hero-features */
 
@@ -250,6 +251,30 @@ span {
     font-size: 2em;
 }
 
+
+.card1:hover {
+    transform: translateY(-15px);
+    transition: all ease-in-out 0.6s;
+
+}
+
+.card2:hover {
+    transform: translateY(-15px);
+    transition: all ease-in-out 0.6s;
+    
+
+
+}
+
+.card3:hover {
+    transform: translateY(-15px);
+    transition: all ease-in-out 0.6s;
+
+
+}
+
+
+
 /* how-it-work-card-main */
 
 
@@ -261,7 +286,21 @@ span {
     text-align: center;
 }
 
+.how-it-work-card-main>h3{
+    font-family: sans-serif;
+} 
+
+..how-it-work-card-main:hover {}
+
 /* how-it-work-logo */
+
+.how-it-work-logo {
+    transition: all ease-in-out 0.6s;
+}
+
+.how-it-work-logo:hover {
+    transform: translateY(-5px);
+}
 
 .how-it-work-logo-img {
     gap: 40px;
@@ -354,6 +393,10 @@ span {
     align-items: flex-start;
 }
 
+.feature-box>h3{
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .icon {
     width: 45px;
     height: 45px;
@@ -396,8 +439,8 @@ p {
     transition: all ease-in-out 0.5s;
 }
 
-.tag:hover{
-background-color: #0953a375;
+.tag:hover {
+    background-color: #0953a375;
 }
 
 /* TITLE */
@@ -514,7 +557,8 @@ background-color: #0953a375;
 }
 
 .show-btn:hover {
-    background: #0953a375;ow
+    background: #0953a375;
+    ow
 }
 
 
@@ -528,18 +572,18 @@ background-color: #0953a375;
     transition: all ease-in-out 0.5s;
 }
 
-#testimonial-card:hover{
+#testimonial-card:hover {
     transform: translateY(-15px);
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.12);
 }
 
 
-.testimonial-card-title{
+.testimonial-card-title {
     font-size: 2.4em;
 }
 
-.testimonial-card1{
-        width: 240px;
+.testimonial-card1 {
+    width: 240px;
 }
 
 /* download-section */
@@ -569,9 +613,10 @@ background-color: #0953a375;
 
 .download-section-title>p {
     color: gray;
-    /* margin-bottom: 20px; */
-    padding: 20px;
-    font-size: 2%;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 2em;
 }
 
 .download-section-title>h1 {
@@ -588,31 +633,31 @@ background-color: #0953a375;
     padding: 60px 8%;
 }
 
-.logo>p img{
+.logo>p img {
     background-color: #005ed1;
     width: 10px;
 }
 
-.logop{
+.logop {
     align-items: center;
     margin: 0 auto;
     background-color: #005ed1;
 }
 
-.rafay{
+.rafay {
     background-color: #005ed1;
 }
 
-.logo .rafay{
+.logo .rafay {
     background-color: #0066d1;
 }
 
-.footer-section.logo .rafay{
+.footer-section.logo .rafay {
     background-color: #005ed1;
 }
 
-.logo{
-  width: 6px;
+.logo {
+    width: 6px;
 }
 
 .footer-container {
@@ -682,5 +727,3 @@ footer .copyright {
 }
 
 /*  */
-
-
