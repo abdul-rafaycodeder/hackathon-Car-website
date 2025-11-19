@@ -525,6 +525,9 @@ background-color: #699beb;
 }
 
 #testimonial-card:hover{
+     transform: translateY(-15px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.12);
+}
 }
 
 
@@ -536,62 +539,6 @@ background-color: #699beb;
         width: 240px;
 }
 
-/* testimonial-cardd */
-
-.wrapper {
-    position: absolute;
-    
-    
-}
-
-
-.testimonial-card {
-    width: 320px;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    transition: 0.3s ease;
-}
-
-.testimonial-card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.12);
-}
-
-.rating2 {
-    font-size: 69px;
-    font-weight: 700;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-}
-
-.rating span {
-    font-size: 18px;
-    color: #000000;
-}
-
-.stars {
-    color: #f7c52f;
-    font-size: 5px;
-    margin: 8px 0 18px;
-}
-
-.review {
-    color: #555;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 25px;
-}
-
-.name {
-    font-size: 17px;
-    font-weight: 600;
-}
-
-.location {
-    font-size: 13px;
-    color: #888;
-}
 
 
 /* download-section */
