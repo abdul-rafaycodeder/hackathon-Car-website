@@ -81,6 +81,12 @@
     }
 }
 
+@media (max-width: 960px) {
+    .download-section-img>a img{
+        width: 20em;
+    }
+}
+
 /* -- Mobile (max-width: 768px) -- */
 @media (max-width: 768px) {
 

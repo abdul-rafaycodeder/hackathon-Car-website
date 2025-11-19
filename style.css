@@ -136,9 +136,21 @@ span {
     width: 170px;
 }
 
+
+
 .hero-section-title>h1 {
     font-size: 4em;
 }
+
+.hero-section-title>a img{
+    transition: all ease-in-out 0.3s;
+}
+
+.hero-section-title>a img:hover{
+
+    transform: translateY(-3px);
+}
+
 
 .hero-section-title>p {
     font-size: 1.2em;
@@ -726,4 +738,12 @@ footer .copyright {
     overflow: hidden;
 }
 
-/*  */
+.download-section-img>a img{
+    transition: all ease-in-out 0.4s;
+}
+
+.download-section-img>a img:hover{
+
+    transform: translateY(-5px);
+}
+
