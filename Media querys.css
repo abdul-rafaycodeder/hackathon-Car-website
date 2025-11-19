@@ -335,7 +335,7 @@
     }
 }
 
-
+/* how-it-work section*/
 
 @media screen and (max-width: 1080px) {
 
@@ -346,8 +346,14 @@
     .how-it-work-logo-img {
         flex-wrap: wrap;
     }
-
 }
+
+@media screen and (max-width: 383px){
+  .how-it-work-title>h2{
+    font-size: 1em;
+  }
+}
+
 
 @media (max-width: 824px) {
     #testimonial-card {
