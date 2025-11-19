@@ -350,9 +350,21 @@
 
 @media screen and (max-width: 383px){
   .how-it-work-title>h2{
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
+
+.card1>img{
+    width: 90px;
 }
+.card2>img{
+    width: 90px;
+}
+.card3>img{
+    width: 90px;
+}
+
+}
+
 
 
 @media (max-width: 824px) {
