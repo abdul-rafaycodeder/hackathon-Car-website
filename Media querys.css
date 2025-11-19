@@ -353,11 +353,11 @@
 @media screen and (max-width: 1080px) {
 
     .how-it-work-logo {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 
     .how-it-work-logo-img {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 }
 
@@ -378,10 +378,7 @@
         width: 90px;
     }
 
-    .how-it-work-logo-img {
-        padding: ;
-    }
-
+    
 }
 
 /* WHY CHOOSE US section */

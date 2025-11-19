@@ -264,7 +264,7 @@ span {
 /* how-it-work-logo */
 
 .how-it-work-logo-img {
-    gap: 20px;
+    gap: 40px;
     margin-top: 130px;
     display: flex;
     align-items: center;
@@ -514,7 +514,7 @@ background-color: #0953a375;
 }
 
 .show-btn:hover {
-    background: #0953a375;
+    background: #0953a375;ow
 }
 
 
