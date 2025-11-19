@@ -96,7 +96,7 @@ body {
 
 
 #hero-section-main {
-    margin-top: -200px;
+    margin-top: -100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -122,11 +122,15 @@ span {
     font-size: 4em;
 }
 
+.hero-section-title>p{
+    font-size: 1.2em;
+}
+
 
 .hero-section-img>img {
     margin-top: 100px;
-    margin-top: 300px;
-    width: 60em;
+    margin-top: 200px;
+    width: 45em;
 
 }
 
