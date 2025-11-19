@@ -138,8 +138,8 @@ span {
 
 .search-container {
     margin: 0 auto;
-    /* background: #f36868; */
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 12px 20px;
     gap: 20px;
