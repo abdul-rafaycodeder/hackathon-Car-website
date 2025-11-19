@@ -68,8 +68,8 @@
         font-size: 2.8em;
     }
 
-    .download-section-title>h1 {
-        font-size: 4em !important;
+    .download-section-title h1 {
+        font-size: 3em !important;
     }
 
     .cars-container {
@@ -119,7 +119,9 @@
         padding: 40px 5%;
     }
 
-   
+    .cars-container {
+        grid-template-columns: 1fr;
+    }
 
     .testimonial-card {
         width: 100%;
@@ -127,24 +129,13 @@
     }
 
     .download-section-title h1 {
-        
-        font-size: 4em !important;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .download-section-title>p {
-        
-        padding: 20px;
+        font-size: 2.2em !important;
     }
 
     .download-section img {
         width: 90%;
     }
 
-    .download-section-img>img{
-
-        width: 20em;
-
-    }
 
     .footer-container {
         grid-template-columns: 1fr;
@@ -154,21 +145,6 @@
     .social-icons {
         justify-content: center;
     }
-}
-
-/* rafay */
-
-@media (max-width: 1185px){
-
-    .download-section-img>img{
-        width: 20em ;
-    }
-
-    .download-section-title>p{
-        line-height: 40px;
-    }
-
-
 }
 
 /* -- Small Mobile (max-width: 480px) -- */
@@ -425,7 +401,7 @@
 
 
 
-@media screen and (max-width: 1196px) {
+@media screen and (max-width: 1196px) { 
     .features {
         display: flex;
         flex-direction: column;
@@ -439,11 +415,6 @@
         font-size: 2.7em;
     }
 }
-@media screen and (max-width: 1340px) {
-    .title5 {
-        font-size: 2.5em;
-    }
-}
 
 /* testimonial-card */
 
@@ -455,6 +426,21 @@
         margin: 0% auto;
     }
 }
+
+@media (max-width: 1177px) {
+    .download-section-title>p{
+        font-size: 2em;
+        padding: 20px;
+        line-height: 35px;
+    }
+
+    .download-section-img>img{
+        width: 20em;
+    }
+} 
+
+
+
 
 @media (max-width: 760px) {
     #testimonial-card {
