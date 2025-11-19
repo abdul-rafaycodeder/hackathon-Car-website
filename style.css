@@ -211,6 +211,7 @@ span {
 }
 
 .hero-features-1 {
+    /* display: flex; */
 }
 
 
@@ -525,9 +526,6 @@ background-color: #699beb;
 }
 
 #testimonial-card:hover{
-     transform: translateY(-15px);
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.12);
-}
 }
 
 
